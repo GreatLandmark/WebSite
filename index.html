@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- __Author__='Jack Luo'
+__Email__='greatlandmark@outlook.com' -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/md5.js"></script>
+    <script src="./js/iconfont.js"></script>
+    <script src="./js/baidu_translator.js"></script>
+    <title>SuperClass</title>
+    <base target="_blank" />
+</head>
+
+<body>
+    <header id="header">
+        <div id="switch-language">
+            <label for="switch-language-slt">Language<sup>*</sup></label>
+            <select id="switch-language-slt">
+                <option value="default">Default</option>
+                <option value="zh">中文(简体)</option>
+                <option value="en">English</option>
+                <option value="cht">中文(繁體)</option>
+                <option value="jp">日本語</option>
+                <option value="kor">한국어</option>
+                <option value="fra">Français</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </div>
+    </header>
+    <aside id="left-aside"></aside>
+    <main id="main">
+        <article>
+            <header>
+                <div>
+                    <img src="./image/touxiang1.jpeg" alt="icon">
+                </div>
+                <div>
+                    <h1 translate="no">欢迎来到 SuperClass</h1>
+                </div>
+            </header>
+            <section>
+                <h2>简介</h2>
+                <div>
+                    <p>这是 SuperClass 团队的网站。</p>
+                    <p>网站正在建设中。。。</p>
+                    <p>至于Logo，还未设计出一个满意的Logo，先用一个头像代替。</p>
+                </div>
+            </section>
+            <section>
+                <h2>应用下载</h2>
+                <div>
+                    <h3>ARKF 软件下载</h3>
+                    <ul>
+                        <li>苹果 iOS :</li>
+                        <ul>
+                            <li>在 Apple App Store下载，搜索关键词: ARKF。 </li>
+                            <a translate="no" href="https://apps.apple.com/cn/app/arkf/id1501738374">Apple App Store</a>
+                            <li>下载链接</li>
+                            <a href="https://apps.apple.com/cn/app/arkf/id1501738374">点击这里跳转到下载</a>
+                            <li>扫描下载</li>
+                            <img height="180px" src="./svg/ARKF_AppleStore.svg" alt="QRcode iOS">
+                        </ul>
+                        <li>安卓 Android:</li>
+                        <ul>
+                            <li>下载链接1 :</li>
+                            <a translate="no"
+                                href="https://greatlandmark.coding.net/api/share/download/8fa51b06-52b5-4502-b514-fb7145120a51">
+                                ARKF v1.71 (Coding)</a>
+                            <li>下载链接2 :</li>
+                            <a translate="no" href="https://gitee.com/greatlandmark/ARKF/attach_files/352827/download">
+                                ARKF v1.71 (Gitee)</a>
+                            <li>扫描下载</li>
+                            <img height="180px" src="./svg/ARKF_apk1.71_coding.svg" alt="QRcode Android">
+                        </ul>
+                        <li>注意(安卓用户):</li>
+                        <p>安卓手机和平板用户，如果你的设备上没有 Google Play Services for AR 应用，为了更好地体验 ARKF应用，请前往应用商店下载。</p>
+                        <div>
+                            <a class="img-text-float-left" translate="no"
+                                href="https://developers.google.cn/ar/discover"><img height="40" width="40"
+                                    src="./image/ARCore1.15.png" alt="AR Core APK"></a>
+                            <p> Google Play Services for AR：又称为 ARCore APK，ARCore 是构建增强现实应用的 Andriod
+                                SDK，这是开发人员使用的系统组件，在桌面不可见，请在应用商城搜索使用ARCore的应用來体验，ARCore将虚拟内容，通过手机摄像头，与看到的现实世界整合，理解和跟踪它相对于现实世界的位置。
+                            </p>
+                            <p>ARCore APK 快速链接：</p>
+                            <a rel="noopener noreferrer" href="https://appstore.huawei.com/app/C100300123">华为应用商店</a>
+                            &nbsp;,&nbsp;
+                            <a rel="noopener noreferrer"
+                                href="http://apps.samsung.com/appquery/appDetail.as?appId=com.google.ar.core">三星应用商店</a>
+                            &nbsp;,&nbsp;
+                            <a rel="noopener noreferrer"
+                                href="http://www.appchina.com/app/com.google.ar.core">其他应用商店</a>
+                        </div>
+                    </ul>
+                </div>
+            </section>
+            
+        </article>
+        <!-- <a translate="no" id="go-to-top" target="_self" href="#header"><img src="./svg/go_to_top.svg"
+                alt="go to top"></a> -->
+    </main>
+    <aside id="right-aside">
+    </aside>
+    <footer id="footer">
+        <hr />
+        <div>
+            <p>* 网页语言翻译不一定准确。</p>
+            <!-- <p>如有问题，请联系网页作者</p> -->
+        </div>
+        <div id="footer-info">
+            <table>
+                <tr>
+                    <td>
+                        <svg class="icon" height="2em" width="2em" aria-hidden="true">
+                            <use xlink:href="#icon-icon_homepage"></use>
+                        </svg></td>
+                    <td>
+                        &nbsp; <a class="text-decoration-none"
+                            href="https://www.superclass.xyz">https://www.superclass.xyz</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><svg class="icon" height="2em" width="2em" aria-hidden="true">
+                            <use xlink:href="#icon-icon_qq"></use>
+                        </svg></td>
+                    <td> &nbsp; 3210175940</td>
+                </tr>
+                <tr>
+                    <td><svg class="icon" height="2em" width="2em" aria-hidden="true">
+                            <use xlink:href="#icon-icon_email2"></use>
+                        </svg></td>
+                    <td> &nbsp; GreatLandmark@outlook.com
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+    <script src="./js/interact.js"></script>
+</body>
+
+</html>

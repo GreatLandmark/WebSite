@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARKF | 课程列表</title>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/md5.js"></script>
+    <script src="../js/courses_list.js"></script>
+    <style>
+        /* * {
+            border: 1px solid;
+        } */
+
+        body {
+            font-size: large;
+            background-color: floralwhite;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+        }
+
+        header {
+            position: relative;
+            margin: 1rem 1rem 0rem 1rem;
+            min-width: 25rem;
+            width: 96vw;
+            height: 2rem;
+        }
+
+        #back {
+            position: absolute;
+            left: 3rem;
+        }
+
+        #back-btn {
+            font-size: 1rem;
+        }
+
+        #switch-language {
+            position: absolute;
+            right: 3rem;
+        }
+
+        /* #courses-list {} */
+    </style>
+</head>
+
+<body>
+    <header>
+        <span id="back">
+            <button id="back-btn" onclick="javascript:history.back(-1)">返回</button>
+        </span>
+        <span id="switch-language">
+            <label for="switch-language-slt">Language</label>
+            <select id="switch-language-slt">
+                <option value="default">Default</option>
+                <option value="zh">中文(简体)</option>
+                <option value="en">English</option>
+                <option value="cht">中文(繁體)</option>
+                <option value="jp">日本語</option>
+                <option value="kor">한국어</option>
+                <option value="fra">Français</option>
+                <option value="de">Deutsch</option>
+            </select>
+        </span>
+    </header>
+    <main>
+        <section id="courses-list">
+            <h2>已构建的课程列表</h2>
+            <ul>
+                <li>计算机科学6门：
+                    <ol>
+                        <li>计算机组成原理</li>
+                        <li>C语言</li>
+                        <li>操作系统</li>
+                        <li>计算机系统结构</li>
+                        <li>数据结构</li>
+                        <li>数据库应用</li>
+                        <!-- <li></li> -->
+                    </ol>
+                </li>
+                <li>小学课程5门：
+                    <ol>
+                        <li>低年级(1-2)语文</li>
+                        <li>低年级(1-2)科学</li>
+                        <li>中年级(3-4)英语</li>
+                        <li>高年级(5-6)数学</li>
+                        <li>五年级科学</li>
+                        <!-- <li></li> -->
+                    </ol>
+                </li>
+
+                <li>初中课程23门：
+                    <ol>
+                        <li>七年级语文</li>
+                        <li>八年级语文</li>
+                        <li>九年级语文</li>
+                        <li>七年级数学</li>
+                        <li>八年级数学</li>
+                        <li>九年级数学</li>
+                        <li>七年级英语</li>
+                        <li>八年级英语</li>
+                        <li>九年级英语</li>
+                        <li>八年级物理</li>
+                        <li>九年级物理</li>
+                        <li>九年级化学</li>
+                        <li>七年级生物</li>
+                        <li>八年级生物</li>
+                        <li>七年级历史</li>
+                        <li>八年级历史</li>
+                        <li>九年级历史</li>
+                        <li>七年级地理</li>
+                        <li>八年级地理</li>
+                        <li>七年级政治</li>
+                        <li>八年级政治</li>
+                        <li>九年级政治</li>
+                        <li>初中信息技术</li>
+                    </ol>
+                </li>
+                <li>高中课程17门：
+                    <ol>
+                        <li>高一语文</li>
+                        <li>高二语文</li>
+                        <li>高中数学</li>
+                        <li>高一英语</li>
+                        <li>高三英语</li>
+                        <li>高一历史</li>
+                        <li>高二历史</li>
+                        <li>高一政治</li>
+                        <li>高二政治</li>
+                        <li>高三政治</li>
+                        <li>高一地理</li>
+                        <li>高三地理</li>
+                        <li>高一生物</li>
+                        <li>高二生物</li>
+                        <li>高一化学</li>
+                        <li>高二化学</li>
+                        <li>高三化学</li>
+                    </ol>
+                </li>
+
+                <ul>
+                    <li>更多课程</li>
+                    <li>正在构建</li>
+                </ul>
+
+            </ul>
+
+        </section>
+    </main>
+    <script src="../js/interact.js"></script>
+</body>
+
+</html>
