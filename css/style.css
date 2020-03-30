@@ -1,6 +1,6 @@
-*, body, table, #left-aside, #right-aside, #main, #header, #footer, article {
+/* *, body, table, #left-aside, #right-aside, #main, #header, #footer, article {
     border: 1px solid black;
-}
+} */
 
 html {
     font-size: medium;
@@ -47,7 +47,9 @@ a:active {
 .width-2 {
     width: 2.5rem;
 }
-
+.flex{
+    display: flex;
+}
 #about a:hover {
     text-decoration: underline;
 }

@@ -1,2 +1,2 @@
 # Home Page
-> This is Jack LUO home page.
+> This is SuperClass home page.
